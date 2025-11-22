@@ -12,7 +12,7 @@ export default function MainContent({ venue }: MainContentProps) {
   return (
     <main className="container mx-auto px-4 py-6">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start">
-        <div className="lg:col-span-3 lg:sticky lg:top-6 lg:z-10">
+        <div className="lg:col-span-3">
           <SeatingMapSection venue={venue} />
         </div>
         <Sidebar venue={venue} />
